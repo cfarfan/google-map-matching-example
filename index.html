@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Mapbox Map Matching example</title>
+
+    <!-- Bootstrap 3.3.6 CDN -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Angular 1.4.9 Google CDN -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
+
+    <!-- Mapbox v2.3.0 Styles -->
+    <link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' />
+    <style>
+      #map{
+        width: 100%;
+        height: 500px;
+      }
+    </style>
+  </head>
+  <body ng-app="experiment">
+    <div class="container" ng-view></div>
+  </body>
+  <!-- Bootstrap 3.3.6 CDN -->
+  <!-- Latest compiled and minified JavaScript -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+
+  <!-- Mapbox v2.3.0 CDN -->
+  <script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
+
+  <!-- Mapbox Leaflet Polyline Plugin v0.2.0 -->
+  <script src='lib/polyline/src/polyline.js'></script>
+
+  <!-- Lodash v4.3.0 CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js" ></script>
+
+  <!-- API keys, this file is ignored by git, create yours -->
+  <script src='config.js'></script>
+
+  <!-- Demo -->
+  <script src="script.js"></script>
+</html>
